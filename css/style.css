@@ -1,0 +1,37 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#card_menu {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 40%;
+  border: solid grey 2px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 10px;
+}
+
+#card_menu img {
+  width: 300px;
+  height: 400px;
+}
+
+#card_menu h1 {
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+button {
+  width: 90%;
+  height: 50px;
+  cursor: pointer;
+  border: red 2px solid;
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
